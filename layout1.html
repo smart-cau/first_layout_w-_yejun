@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        layout1
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+
+    <style type="text/css">
+
+        .container{
+            display: flex;
+            flex-direction: column;
+
+            border: 2px solid yellow;
+
+            width: 100%;
+            height: 100vh;
+
+            background-color: gray;
+
+            padding: 1em;
+
+            position: relative;
+        }
+
+        header{
+            border: 1px solid red;
+
+            width: 80%;
+            height: 4em;
+
+            position: relative;
+
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2em;
+        }
+
+        .container2{
+            display: flex;
+            flex-direction: row;
+
+            border: 1px solid blue;
+
+            width: 80%;
+            height: 80vh;
+
+            position: relative;
+
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .container3{
+            display: flex;
+            flex-direction: column;
+
+            border: 1px solid green;
+
+            width: 50%;
+            height: 60vh;
+
+            margin: 3em 5em;
+        }
+
+        .small{
+            position: relative;
+
+            border: 1px solid powderblue;
+
+            width: 80%;
+            height: 10vh;
+
+            margin: 2em 2em;
+        }
+
+        .big{
+            position: relative;
+
+            border: 1px solid powderblue;
+
+            width: 80%;
+            height: 40vh;
+
+            margin: 2em 2em;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header> </header>
+
+        <div class="container2">
+
+            <div class="container3">
+
+                <div class="small">
+                </div>
+
+                <div class="big">
+                </div>
+
+            </div>
+
+            <div class="container3">
+                <div class="big">
+
+                </div>
+
+                <div class="small">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

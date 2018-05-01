@@ -1,0 +1,35 @@
+/*기본설정*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0px;
+    vertical-align: middle;
+}
+
+span {
+    display: block;
+}
+
+p {
+    line-height: 1.75;
+}
+
+.clearfix{
+    clear: both;
+}
